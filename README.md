@@ -1,6 +1,7 @@
 ⭐ SkillSphere Academy
+   
    🌐 Overview
-    SkillSphere Academy is my first web development project, designed as a training and internship management portal. The website provides information about the academy, available courses, internship programs, and allows users to register and contact the institution.
+    SkillSphere Academy is my first web development project, designed as a training and internship management portal. The website provides information about the       academy, available courses, internship programs, and allows users to register and contact the institution.
     This project is developed using HTML, CSS, PHP, and MySQL.
     
 🚀 Features
