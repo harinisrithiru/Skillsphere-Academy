@@ -1,0 +1,1126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.header{
+    width:100%;
+    min-height:180px;
+    background: #2182cc;
+    padding:25px 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-family:Arial, sans-serif;
+
+
+}
+.brand{
+
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+.logo{
+
+    width: 100px;
+    height:100px;
+    object-fit:contain;
+
+}
+.brand h1{
+
+    color:#12355b;
+    font-size:32px;
+
+}
+.brand p{
+
+    color:#4b647c;
+    font-size:16px;
+
+}
+.navbar{
+
+    display:flex;
+    gap:25px;
+    padding-top: 70px;
+
+}
+
+.navbar a{
+
+    text-decoration:none;
+    color:#12355b;
+    font-size:20px;
+    padding:10px 15px;
+    border-radius:8px;
+    transition:0.3s;
+}
+.navbar a:hover{
+
+    background:#d8eaff;
+    color:#0066cc;
+
+}
+.footer{
+
+    background-color: #f2f3f4;
+
+    padding:40px 60px;
+
+    text-align:center;
+
+    font-family:Arial, sans-serif;
+
+    border-top:2px solid #bcd3e6;
+
+}
+
+
+
+.footer h2{
+
+    color:#12355b;
+
+    font-size:28px;
+
+    margin-bottom:10px;
+
+}
+
+
+
+.footer p{
+
+    color:#4b647c;
+
+    font-size:16px;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.social-icons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.social-icons a{
+
+    color:#12355b;
+
+    font-size:30px;
+
+    text-decoration:none;
+
+}
+
+
+
+.social-icons a:hover{
+
+    color:#0066cc;
+
+}
+
+
+
+.copyright{
+
+    background:#12355b;
+
+    color:white;
+
+    padding:12px;
+
+    border-radius:8px;
+
+}
+/* =====================
+   HOME PAGE
+
+
+
+/* Main home area */
+
+.home-content{
+
+    min-height:500px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:60px 20px;
+
+}
+
+
+
+/* Hero box (we will use later) */
+
+.hero{
+
+    max-width:800px;
+
+}
+
+
+
+.hero h1{
+
+    font-size:45px;
+
+    color:#12355b;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.hero p{
+
+    font-size:18px;
+
+    color:#4b647c;
+
+    line-height:1.6;
+
+}
+/* ======================
+      HOME PAGE STYLE
+====================== */
+
+
+.home-content{
+
+    .home-content{
+
+    min-height:550px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    background:
+
+    linear-gradient(
+        rgba(255,255,255,0.75),
+        rgba(255,255,255,0.75)
+    ),
+    url("bg image.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    padding:60px 20px;
+
+}
+}
+
+
+
+.hero{
+
+    max-width:900px;
+
+}
+
+
+
+.hero h1{
+
+    font-size:52px;
+
+    font-family:Georgia, serif;
+
+    color:#12355b;
+
+    margin-bottom:20px;
+
+    letter-spacing:1px;
+
+}
+
+
+
+.intro{
+
+    font-size:20px;
+
+    color:#4b647c;
+
+    max-width:750px;
+
+    margin:auto;
+
+    line-height:1.7;
+
+}
+
+
+
+marquee{
+
+    display:block;
+
+    width:100%;
+
+    margin-top:45px;
+
+}
+
+
+
+.moving-text{
+
+    display:block;
+
+    white-space:nowrap;
+
+    font-size:38px;
+
+    font-family:cursive;
+
+    color:#0066cc;
+
+    padding:15px 0;
+
+}
+
+/* ---------- Common Reset ---------- */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+
+
+
+/* ---------- Header ---------- */
+
+.header{
+
+    background:white;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    box-shadow:0 3px 15px rgba(0,0,0,0.1);
+
+}
+
+
+
+.menu a{
+
+    text-decoration:none;
+    color:#333;
+    margin-left:25px;
+    font-size:18px;
+
+}
+
+
+
+.menu a:hover{
+
+    color:#0066ff;
+
+}
+
+
+
+
+/* ---------- Big Quote Section ---------- */
+
+.about-hero{
+
+    height:400px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    background:linear-gradient(135deg,#0066ff,#8e2de2);
+
+    padding:30px;
+
+}
+
+
+
+.about-hero h1{
+
+    color:white;
+    font-size:45px;
+    width:80%;
+
+}
+
+
+
+
+/* ---------- About / Vision / Mission ---------- */
+
+
+.about-section,
+.info-card,
+.why{
+
+
+    width:85%;
+    margin:50px auto;
+
+    background:white;
+
+    padding:45px;
+
+    border-radius:25px;
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,0.12);
+
+}
+
+
+
+
+h2{
+
+    text-align:center;
+
+    color:#0066ff;
+
+    font-size:35px;
+
+    margin-bottom:25px;
+
+}
+
+
+
+
+.about-section p,
+.info-card p{
+
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#555;
+
+    text-align:justify;
+
+}
+
+
+
+
+
+
+/* ---------- Why Choose Us ---------- */
+
+
+.why-container{
+
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+
+
+
+
+.why-box{
+
+
+    background:#eef5ff;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    border-left:5px solid #0066ff;
+
+    transition:0.3s;
+
+}
+
+
+
+
+
+.why-box:hover{
+
+
+    transform:translateY(-10px);
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,0.15);
+
+}
+
+
+
+
+
+.why-box h3{
+
+
+    color:#0066ff;
+
+    margin-bottom:15px;
+
+    font-size:22px;
+
+}
+
+
+
+
+
+.why-box p{
+
+
+    color:#555;
+
+    font-size:16px;
+
+    line-height:1.6;
+
+}
+
+
+
+
+
+/* ---------- Footer ---------- */
+
+
+.footer{
+
+    background:#111;
+
+    color:white;
+
+    padding:40px;
+
+    text-align:center;
+
+    margin-top:50px;
+
+}
+
+
+
+
+
+
+/* ---------- Mobile Responsive ---------- */
+
+
+@media(max-width:900px){
+
+
+.header{
+
+    flex-direction:column;
+
+}
+
+
+
+.why-container{
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.about-hero h1{
+
+    font-size:30px;
+
+}
+
+
+
+.about-section,
+.info-card,
+.why{
+
+    width:90%;
+
+}
+
+
+}
+
+.intern-hero{
+
+height:350px;
+
+background:linear-gradient(135deg,#0066ff,#8e2de2);
+
+color:white;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+}
+
+
+
+.intern-hero h1{
+
+font-size:45px;
+
+}
+
+
+
+
+.intern-card,
+.fees-page,
+.contact-box{
+
+width:85%;
+
+margin:50px auto;
+
+background:white;
+
+padding:40px;
+
+border-radius:25px;
+
+box-shadow:0 10px 25px #ccc;
+
+}
+
+
+
+.intern-card h2,
+.fees-page h1{
+
+color:#0066ff;
+
+text-align:center;
+
+margin-bottom:25px;
+
+}
+
+
+
+
+.intern-card li{
+
+margin:20px;
+
+font-size:18px;
+
+line-height:1.6;
+
+}
+
+
+
+
+
+.duration{
+
+display:flex;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+}
+
+
+
+.duration div{
+
+background:#dff1ff;
+
+padding:25px;
+
+border-radius:15px;
+
+font-size:20px;
+
+}
+
+
+
+
+
+.project-box{
+
+background:#eef5ff;
+
+padding:25px;
+
+margin:20px;
+
+border-radius:15px;
+
+}
+
+
+
+
+.fees-link{
+
+text-align:center;
+
+margin:50px;
+
+}
+
+
+
+.fees-link a{
+
+background:#0066ff;
+
+color:white;
+
+padding:15px 30px;
+
+border-radius:30px;
+
+text-decoration:none;
+
+}
+
+
+
+
+
+table{
+
+width:100%;
+
+border-collapse:collapse;
+
+font-size:18px;
+
+}
+
+
+
+th{
+
+background:#0066ff;
+
+color:white;
+
+padding:20px;
+
+}
+
+
+
+td{
+
+padding:18px;
+
+text-align:center;
+
+border-bottom:1px solid #ddd;
+
+}
+
+
+
+tr:hover{
+
+background:#eef5ff;
+
+}
+
+/* Register Page */
+
+
+.register-hero{
+
+height:350px;
+
+background:linear-gradient(135deg,#0066ff,#8e2de2);
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+color:white;
+
+padding:30px;
+
+}
+
+
+
+.register-hero h1{
+
+font-size:42px;
+
+}
+
+
+
+
+.register-hero p{
+
+font-size:20px;
+
+margin-top:15px;
+
+}
+
+.register-card{
+
+
+width:60%;
+
+margin:50px auto;
+
+background:white;
+
+padding:45px;
+
+border-radius:25px;
+
+box-shadow:0 10px 30px #ccc;
+
+
+}
+
+
+
+
+
+.register-card h2{
+
+text-align:center;
+
+color:#0066ff;
+
+margin-bottom:30px;
+
+}
+
+.register-card label{
+
+display:block;
+
+font-weight:bold;
+
+margin-top:20px;
+
+}
+
+.register-card input,
+.register-card select{
+
+
+width:100%;
+
+padding:15px;
+
+margin-top:8px;
+
+border-radius:10px;
+
+border:1px solid #ccc;
+
+font-size:16px;
+
+
+}
+
+
+.payment{
+
+margin-top:15px;
+
+font-size:18px;
+
+}
+
+.payment-note{
+
+
+background:#eaf5ff;
+
+padding:20px;
+
+margin-top:25px;
+
+border-radius:15px;
+
+line-height:1.6;
+
+}
+
+
+.register-card button{
+
+
+width:100%;
+
+margin-top:30px;
+
+padding:16px;
+
+border:none;
+
+border-radius:30px;
+
+background:#0066ff;
+
+color:white;
+
+font-size:18px;
+
+cursor:pointer;
+
+}
+
+
+
+.register-card button:hover{
+
+background:#004dcc;
+
+}
+
+
+
+
+
+@media(max-width:800px){
+
+.register-card{
+
+width:90%;
+
+}
+
+
+.register-hero h1{
+
+font-size:28px;
+
+}
+
+}
+
+/* Contact Page */
+
+
+.contact-hero{
+
+
+height:350px;
+
+background:linear-gradient(135deg,#0066ff,#8e2de2);
+
+color:white;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+text-align:center;
+
+
+}
+
+
+
+
+.contact-hero h1{
+
+font-size:45px;
+
+width:80%;
+
+}
+
+
+
+
+
+
+.location-card{
+
+
+width:85%;
+
+margin:50px auto;
+
+background:white;
+
+padding:35px;
+
+border-radius:25px;
+
+box-shadow:0 10px 25px #ccc;
+
+
+}
+
+
+
+
+
+
+.location-card h2{
+
+color:#0066ff;
+
+text-align:center;
+
+margin-bottom:25px;
+
+}
+
+
+
+
+
+
+.location-card iframe{
+
+
+width:100%;
+
+height:350px;
+
+border:0;
+
+border-radius:20px;
+
+}
+
+
+
+
+
+.location-details{
+
+
+margin-top:25px;
+
+background:#eef6ff;
+
+padding:25px;
+
+border-radius:15px;
+
+}
+
+
+
+.location-details h3{
+
+color:#0066ff;
+
+}
+
+
+
+
+
+.location-details p{
+
+font-size:17px;
+
+line-height:1.8;
+
+}
+
+
+
+
+
+
+.contact-end{
+
+
+background: #3e72a9;
+
+color:white;
+
+padding:50px;
+
+text-align:center;
+
+margin-top:50px;
+
+}
+
+
+
+.contact-end h2{
+
+color:white;
+
+}
